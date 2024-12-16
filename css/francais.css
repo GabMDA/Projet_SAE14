@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Simonitta-regular";
+    src: url(../font/Simonetta/Simonetta-Regular.ttf);
+}
 a {
     color: grey;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
     font-size: 30px;
+    font-family: "PlaywriteNLGuides-Regular";
 }
 .headerbloc1 {
     display: grid;
@@ -23,21 +28,21 @@ header {
     grid-area: 1 / 1 / 2 / 2;
 }
 .headerdiv2 {
-    grid-area: 2 / 3 / 3 / 4;
+    grid-area: 2 / 2 / 3 / 3;
     text-align: center;
     place-items: center;
     margin-top: 25px;
     border: 2px  solid violet;
     border-radius: 8px;
 }
-.headerdiv6 a {
+.headerdiv5 a {
     font-size: 40px;
 }
 .headerdiv3 {
     grid-area: 1 / 3 / 2 / 4;
 }
 .headerdiv4 {
-    grid-area: 2 / 1 / 3 / 2; 
+    grid-area: 2 / 1 / 3 / 2;
     text-align: center;
     place-items: center;
     margin-top: 25px;
@@ -46,23 +51,22 @@ header {
 
 }
 .headerdiv5 { 
-    grid-area: 2 / 2 / 3 / 3; 
+    grid-area: 1 / 2 / 2 / 3;
     text-align: center;
     place-items: center;
     margin-top: 25px;
     border: 2px  solid violet;
     border-radius: 8px;
-
 }
 .headerdiv6 { 
-    grid-area: 1 / 2 / 2 / 3; 
+    grid-area: 2 / 3 / 3 / 4; 
     text-align: center;
     place-items: center;
     margin-top: 25px;
     border: 2px  solid violet;
     border-radius: 8px;
-
 }
 body {
     background-color: #021607;
+    font-family: "Simonitta-regular";
 }

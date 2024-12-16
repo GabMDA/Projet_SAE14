@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Simonitta-regular";
+    src: url(../font/Simonetta/Simonetta-Regular.ttf);
+}
 a {
     color: grey;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
     font-size: 30px;
+    font-family: "PlaywriteNLGuides-Regular";
 }
 .headerbloc1 {
     display: grid;
@@ -65,6 +70,7 @@ header {
 }
 body {
     background-color: #021607;
+    font-family: "Simonitta-regular";
 }
 .bodybloc1 {
     display: grid;
